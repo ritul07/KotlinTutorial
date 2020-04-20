@@ -1,0 +1,12 @@
+//  Kotlin Notes    //
+
+- ${obj.name}  so that it'll treat both as one
+- If else is not just a branching statement, it's also an expression : i.e it'll return some values
+- if using nullable string/objects, we've to use "?" , whenever necessary
+- annotate kt file with @file: JvmName("name") to use it in a java file, to access kotlin's function
+- The code inside the "init" block is the first to be executed when the class is instantiated. The init block is run every time the class is instantiated, with any kind of constructor.
+- we can't extend more than one class
+- why multiple-inheritance is not supported by JAVA ?
+- back-tick i.e  `  (below Esc button), if we need to use any keyword in place of variables, like "Class `in`{}" , here "in" is a keyword, so we can use back-tick here to treat it as normal variable
+- user input can be taken in kotlin as a Java syntax also
+- in array, we can have a limited size, so you can't add elt or delete elt, to overcome this List is there.
